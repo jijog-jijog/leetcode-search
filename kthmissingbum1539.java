@@ -7,7 +7,7 @@ public class kthmissingbum1539 {
         int right = arr.length-1;
         while (left <= right) {
             int mid = left + (right - left)/2;
-            int res = arr[mid] - mid;
+            int res = arr[mid] - (mid + 1);
             if (res < k ) {
                 ans = res;
                 left = mid + 1;
@@ -15,7 +15,7 @@ public class kthmissingbum1539 {
                 right = mid - 1;
             }
         }
-    System.out.println(ans);
+    System.out.println(ans + k);
         }
     }
 
