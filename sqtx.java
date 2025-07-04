@@ -7,7 +7,7 @@ public class sqtx {
        while (condition) {
         int mid = x/2;
         long midsq = mid*mid;
-        if (condition) {
+        if (midsq < x) {
             
         }
        }
