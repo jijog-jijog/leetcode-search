@@ -9,11 +9,11 @@ public class smallerletter744 {
         while (left <= right) {
             int mid = left + (right - left)/2;
             if (mid == target) {
-                ans = mid ;
-            }else if (> target ) {
+                ans = letters[mid].charAt(0);
+            }else if (mid > target ) {
                 right = mid - 1;
-            }else if( < target){
-                ans = ;
+            }else if(mid < target){
+                ans = letters[mid].charAt(0);
                 left = mid + 1;
             }
         }
