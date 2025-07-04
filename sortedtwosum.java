@@ -4,8 +4,8 @@ public class sortedtwosum {
         int target = 9;
         int[] res = null;
         
-        for(int i=0; i<nums.length; i++){
-            for(int j=i+1; j<nums.length; j++){
+        for(int i=1; i<nums.length - 2; i++){
+            for(int j=i+1; j<nums.length - 2; j++){
                 if (nums[i] + nums[j] == target) {
                  res =  new int[]{i,j};
                 }
