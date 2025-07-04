@@ -13,13 +13,13 @@ public class sqtx {
                 ans = mid;
                 break;
             } else if (midsq > x) {
-                midsq--;
+                left = mid+1;
             }else if (midsq < x) {
                 ans = mid;
                 break;
             }
             else {
-                midsq++;
+                right = right - 1;
             }
         }
         System.out.println(ans);
