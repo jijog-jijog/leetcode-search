@@ -9,7 +9,7 @@ public class kthmissingbum1539 {
             int mid = left + (right - left)/2;
             int res = arr[mid] - mid;
             if (res < k ) {
-                ans = mid;
+                ans = res;
                 left = mid + 1;
             }else{
                 right = mid - 1;
