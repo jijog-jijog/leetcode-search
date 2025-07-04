@@ -10,7 +10,7 @@ public class sqtx {
             if (mid == right){
                 System.out.println(mid);
             } else if (mid < right) {
-                left += 1;
+                left -= 1;
             }else {
                 left++;
             }
