@@ -5,7 +5,11 @@ public class sqtx {
        int right = x;
         
        while (condition) {
-        
+        int mid = x/2;
+        long midsq = mid*mid;
+        if (condition) {
+            
+        }
        }
     }
 }
