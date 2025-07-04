@@ -6,7 +6,7 @@ public class sqtx {
        long ans = 0;
         
        while (left >= right) {
-        int mid = x/2;
+        int mid = (left + right)/2;
         long midsq = (long)mid*mid;
         if (midsq < x) {
             ans = mid;
