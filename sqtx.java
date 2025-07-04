@@ -35,3 +35,5 @@ public class sqtx {
 // } else {
 //     right = mid - 1;  // Move to the left half
 // }
+
+// 1 2 3 4   |   5 6 7 8
