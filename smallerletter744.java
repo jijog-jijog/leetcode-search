@@ -15,6 +15,9 @@ public class smallerletter744 {
             }else if(mid < target){
                 ans = letters[mid].charAt(0);
                 left = mid + 1;
+            }else{
+                ans = letters[0].charAt(0);
+                break;
             }
         }
     System.out.println(ans);
