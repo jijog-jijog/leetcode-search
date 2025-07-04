@@ -12,7 +12,10 @@ public class sqtx {
                 mid = ans;
             } else if (midsq > x) {
                 midsq--;
-            }else {
+            }else if (midsq < x) {
+                
+            }
+            else {
                 midsq++;
             }
         }
