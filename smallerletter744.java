@@ -1,7 +1,7 @@
 public class smallerletter744 {
     public static void main(String[] args) {
-        char[] letters = {'c' , 'f' , 'j'};
-        char target = 'c';
+        char[] letters = {'x' , 'x' , 'y', 'y'};
+        char target = 'z';
         int left = 0;
         int right = letters.length - 1;
         char ans = letters[0];
