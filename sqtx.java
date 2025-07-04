@@ -25,3 +25,13 @@ public class sqtx {
         System.out.println(ans);
     }
 }
+
+
+
+
+// if (midsq < x) {
+//     ans = mid;        // Store the floor value
+//     left = mid + 1;   // Move to the right half
+// } else {
+//     right = mid - 1;  // Move to the left half
+// }
