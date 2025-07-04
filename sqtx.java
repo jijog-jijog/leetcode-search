@@ -19,7 +19,7 @@ public class sqtx {
                 break;
             }
             else {
-                right = right - 1;
+                right = mid - 1;
             }
         }
         System.out.println(ans);
