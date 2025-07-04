@@ -9,7 +9,7 @@ public class sqtx {
         int mid = x/2;
         long midsq = (long)mid*mid;
         if (midsq < x) {
-            ans = midsq;
+            ans = mid;
             left = mid + 1;
         }else if (midsq > x) {
              right = mid-1;
