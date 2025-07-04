@@ -1,7 +1,7 @@
 public class smallerletter744 {
     public static void main(String[] args) {
         char[] letters = {'c' , 'f' , 'j'};
-        char target = 'f';
+        char target = 'c';
         int left = 0;
         int right = letters.length - 1;
         char ans = letters[0];
@@ -13,12 +13,10 @@ public class smallerletter744 {
                 ans = letters[mid];
                  right = mid - 1;
 
-            }else if(letters[mid] < target){
-                left = mid + 1;
-
             }else{
-                ans = letters[0];
-                break;
+                   left = mid + 1;
+
+            }
             }
         }
     System.out.println(ans);
