@@ -12,7 +12,7 @@ public class smallerletter744 {
                 ans = letters[mid].charAt(0);
             }else if (letters[mid].charAt(0) > target ) {
                 right = mid - 1;
-            }
+            }else if(letters[mid])
         }
     }
 }
