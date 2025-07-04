@@ -17,6 +17,6 @@ public class smallerletter744 {
                 left = mid + 1;
             }
         }
-    
+    System.out.println(ans);
     }
 }
