@@ -18,7 +18,6 @@ public class smallerletter744 {
 
             }
             }
-        }
     System.out.println(ans);
     }
 }
