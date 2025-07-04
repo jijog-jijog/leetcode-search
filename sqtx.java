@@ -15,6 +15,6 @@ public class sqtx {
             right = mid-1;
         }
        }
-    
+    System.out.println(ans);
     }
 }
