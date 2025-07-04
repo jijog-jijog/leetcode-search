@@ -8,11 +8,15 @@ public class smallerletter744 {
 
         while (left <= right) {
             int mid = left + (right - left)/2;
-            if (letters[mid].charAt(0) == target) {
-                ans = letters[mid].charAt(0);
-            }else if (letters[mid].charAt(0) > target ) {
+            if (letters[mid].charAt(mid) == target) {
+                ans = letters[mid].charAt(mid);
+            }else if (letters[mid].charAt(mid) > target ) {
                 right = mid - 1;
-            }else if(letters[mid])
+            }else if(letters[mid].charAt(mid) < target){
+                ans = letters[mid].charAt(mid);
+                left = mid + 1;
+            }
         }
+    
     }
 }
