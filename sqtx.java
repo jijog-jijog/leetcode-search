@@ -5,20 +5,23 @@ public class sqtx {
         int right = x;
          int ans =0;
 
-        while(left <= x){
+        while(left <= right){
             
-            int mid = left + (x - left)/2;
+            int mid = left + (right - left)/2;
             long midsq = (long)mid*mid;
             if (midsq == x){
-                mid = ans;
+                ans = mid;
+                break;
             } else if (midsq > x) {
                 midsq--;
             }else if (midsq < x) {
-                mid = ans;
+                ans = mid;
+                break;
             }
             else {
                 midsq++;
             }
         }
+        System.out.println(ans);
     }
 }
