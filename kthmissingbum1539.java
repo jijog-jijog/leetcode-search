@@ -15,6 +15,7 @@ public class kthmissingbum1539 {
                 right = mid - 1;
             }
         }
+    System.out.println(ans);
         }
     }
 
