@@ -8,12 +8,12 @@ public class smallerletter744 {
 
         while (left <= right) {
             int mid = left + (right - left)/2;
-            if (letters[mid].charAt(mid) == target) {
-                ans = letters[mid].charAt(mid);
-            }else if (letters[mid].charAt(mid) > target ) {
+            if (mid == target) {
+                ans = mid ;
+            }else if (> target ) {
                 right = mid - 1;
-            }else if(letters[mid].charAt(mid) < target){
-                ans = letters[mid].charAt(mid);
+            }else if( < target){
+                ans = ;
                 left = mid + 1;
             }
         }
