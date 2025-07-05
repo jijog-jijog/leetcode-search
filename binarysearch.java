@@ -1,7 +1,7 @@
 public class binarysearch {
     public static void main(String[] args) {
         int[] nums = {-1,0,3,5,9,12};
-        int target = 9;
+        int target = 2;
 
         int left = 0;
         int right = nums.length-1;
