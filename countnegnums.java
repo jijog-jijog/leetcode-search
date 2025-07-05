@@ -17,7 +17,9 @@ public class countnegnums {
                 int mid = left + (right - left)/2;
                 if (a[mid] < 0) {
                     ind = mid;
-                    
+                    right = mid - 1;
+                }else{
+                    left = mid + 1;
                 }
             }
          }
