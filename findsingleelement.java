@@ -15,5 +15,6 @@ public class findsingleelement {
                 right = mid - 1;
             }
         }
+    System.out.println(ans);
     }
 }
