@@ -21,10 +21,11 @@ public class countnegnums {
                 }else{
                     left = mid + 1;
                 }
+            ind = len - ind;
             }
         
          }
-    ind = len - ind;
+    
     System.out.println(ind);
 }
 }
