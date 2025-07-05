@@ -32,9 +32,14 @@ public class firstlastpos34 {
             }else if (nums[mid] > target) {
                 right = mid + 1;
             } else {
-                
+                left = mid + 1;
             }
         }
+
+    int[] op = {ansleft,ansright};
+    for(int a : op){
+        System.out.println(a);
+    } 
        
     }
 }
