@@ -5,6 +5,7 @@ public class countnegnums {
                       {1,1,-1,-2},
                       {-1,-1,-2,-3}};
          int left = 0;
-         int right = grid.length;
+         int right = grid.length-1;
+         int ans = 0;
     }
 }
