@@ -19,5 +19,6 @@ public class binarysearch {
             ans = -1;
            }
         }
+    System.out.println(ans);
     }
 }
