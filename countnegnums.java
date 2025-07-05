@@ -10,8 +10,9 @@ public class countnegnums {
          int len = grid.length;
        
 
-         int ind = 0;
+        int ans = 0;
          for(int[] a : grid){
+             int ind = 0;
               int left = 0;
               int right = len -1;
             while (left <= right ) {
@@ -24,9 +25,9 @@ public class countnegnums {
                 }
             
             }
-        ind = a.length - left;
+        ans = a.length - left;
          }
     
-    System.out.println(ind);
+    System.out.println(ans);
 }
 }
