@@ -15,8 +15,6 @@ public class binarysearch {
                right = mid - 1;
            }else if (nums[mid] < target) {
                left = mid + 1;
-           }else{
-            ans = -1;
            }
         }
     System.out.println(ans);
