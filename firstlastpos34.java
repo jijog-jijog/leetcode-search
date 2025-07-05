@@ -24,15 +24,18 @@ public class firstlastpos34 {
             }
         }
 
-        while (left <= right) {
-            int mid = left + (right - left)/2;
+        int rleft = 0;
+        int rright = nums.length-1;
+
+        while (rleft <= rright) {
+            int mid = rleft + (rright - rleft)/2;
             if (nums[mid] == target) {
                 ansright = mid;
-                right = mid + 1;
+                rright = mid + 1;
             }else if (nums[mid] > target) {
-                right = mid + 1;
+                rright = mid + 1;
             } else {
-                left = mid + 1;
+                rleft = mid + 1;
             }
         }
 
