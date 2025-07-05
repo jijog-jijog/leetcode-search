@@ -11,6 +11,9 @@ public class countnegnums {
          int left = 0;
          int right = len -1;
 
-         
+         for(int[] a : grid){
+            
+         }
+
 }
 }
