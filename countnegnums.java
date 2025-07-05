@@ -22,6 +22,7 @@ public class countnegnums {
                     left = mid + 1;
                 }
             }
+        ind = len - ind;
          }
 
 }
