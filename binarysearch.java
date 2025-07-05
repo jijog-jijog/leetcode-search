@@ -5,9 +5,12 @@ public class binarysearch {
 
         int left = 0;
         int right = nums.length-1;
+        int ans = 0;
         while (left <= right) {
            int mid =  left +(left - right)/2;
-           
+           if (nums[mid] == target) {
+            
+           }
         }
     }
 }
