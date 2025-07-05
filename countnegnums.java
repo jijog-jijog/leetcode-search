@@ -24,7 +24,7 @@ public class countnegnums {
                 }
             
             }
-        ind = len - ind;
+        ind = a.length - left;
          }
     
     System.out.println(ind);
