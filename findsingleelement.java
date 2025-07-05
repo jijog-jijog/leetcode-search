@@ -7,7 +7,7 @@ public class findsingleelement {
 
         while (left <= right) {
             int mid = left + (right - left)/2;
-            if (nums[mid]) {
+            if (nums[mid] != nums[mid + 1]) {
                 
             }
         }
