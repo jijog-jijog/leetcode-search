@@ -7,5 +7,9 @@ public class countnegnums {
          int left = 0;
          int right = grid.length-1;
          int ans = 0;
+
+         while (left <= right) {
+            
+         }
     }
 }
