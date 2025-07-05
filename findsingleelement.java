@@ -11,6 +11,7 @@ public class findsingleelement {
             if (nums[mid] != nums[mid + 1]) {
                 ans = nums[mid];
                 break;
+                
             }
         }
     }
