@@ -17,6 +17,9 @@ public class interof2array {
     for(int i = 0; i < ans.size(); i++){
         res[i] = ans.get(i);
     }
+    for(int a : res){
+        System.out.println(a);
+    }
 
 
     }
