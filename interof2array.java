@@ -13,7 +13,9 @@ public class interof2array {
                 ans.add(i);
             }
         }
-    
+    for(List[] a : ans){
+        
+    }
 
 
     }
