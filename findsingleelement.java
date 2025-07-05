@@ -10,8 +10,9 @@ public class findsingleelement {
             int mid = left + (right - left)/2;
             if (nums[mid] != nums[mid + 1]) {
                 ans = nums[mid];
-                break;
-                
+                left = mid + 1;
+            }else{
+                right = mid - 1;
             }
         }
     }
