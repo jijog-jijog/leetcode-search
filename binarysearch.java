@@ -9,7 +9,10 @@ public class binarysearch {
         while (left <= right) {
            int mid =  left +(left - right)/2;
            if (nums[mid] == target) {
-            
+              ans = mid;
+              break;
+           }else if (nums[mid] > target) {
+              
            }
         }
     }
