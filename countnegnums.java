@@ -12,13 +12,13 @@ public class countnegnums {
 
         int ans = 0;
          for(int[] a : grid){
-             int ind = 0;
+            
               int left = 0;
               int right = len -1;
             while (left <= right ) {
                 int mid = left + (right - left)/2;
                 if (a[mid] < 0) {
-                    ind = mid;
+                
                     right = mid - 1;
                 }else{
                     left = mid + 1;
