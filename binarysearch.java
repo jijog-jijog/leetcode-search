@@ -7,7 +7,7 @@ public class binarysearch {
         int right = nums.length-1;
         int ans = 0;
         while (left <= right) {
-           int mid =  left +(left - right)/2;
+           int mid =  left +(right - left)/2;
            if (nums[mid] == target) {
               ans = mid;
               break;
