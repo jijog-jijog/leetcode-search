@@ -8,11 +8,12 @@ public class countnegnums {
                       {-1,-1,-2,-3}};
          int count = 0;
          int len = grid.length;
-         int left = 0;
-         int right = len -1;
+       
 
          int ind = 0;
          for(int[] a : grid){
+              int left = 0;
+              int right = len -1;
             while (left <= right ) {
                 int mid = left + (right - left)/2;
                 if (a[mid] < 0) {
