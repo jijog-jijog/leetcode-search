@@ -8,7 +8,7 @@ public class searchroatedarray {
         int ans = -1;
         while (left <= right) {
            int mid = left + (right - left)/2; 
-           if (target <= left && target >= mid) {
+           if (target <= left && mid >= target) {
                 if (target > mid) {
                     right = mid - 1;
                 }else if (target < mid) {
