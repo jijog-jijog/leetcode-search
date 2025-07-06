@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortarray2",
+            "request": "launch",
+            "mainClass": "sortarray2",
+            "projectName": "leetcode_a821e293"
+        },
+        {
+            "type": "java",
             "name": "searchroatedarray",
             "request": "launch",
             "mainClass": "searchroatedarray",
