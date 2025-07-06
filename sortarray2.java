@@ -12,11 +12,11 @@ public class sortarray2 {
             if (nums[mid] == target) {
                 ans = true;
             }
-            if (nums[mid] > nums[left] ) {
+            if (nums[mid] >= nums[left] ) {
                 if (nums[mid] > target) {
                     right = mid - 1;
                 }else{
-                    left = mid -1;
+                    left = mid +1;
                 }
             }else{
                 if (target > nums[mid] && target <= nums[left]) {
