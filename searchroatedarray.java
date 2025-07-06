@@ -5,9 +5,10 @@ public class searchroatedarray {
 
         int left = 0;
         int right = nums.length-1;
+        System.out.println(right);
         while (left <= right) {
            int mid = left + (right - left)/2; 
-           
+
 
         }
     }
