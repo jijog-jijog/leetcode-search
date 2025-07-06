@@ -8,8 +8,8 @@ public class searchroatedarray {
         System.out.println(right);
         while (left <= right) {
            int mid = left + (right - left)/2; 
-           System.out.println(mid);
+           System.out.println(nums[mid]);
 
         }
     }
-}
+}-
