@@ -8,6 +8,7 @@ public class searchroatedarray {
         while (left <= right) {
            int mid = left + (right - left)/2; 
            
+
         }
     }
 }
