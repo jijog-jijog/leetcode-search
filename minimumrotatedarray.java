@@ -19,9 +19,14 @@ public class minimumrotatedarray {
         int mid2 = left+(right - left )/2;
         if (nums[mid2] >= nums[right]) {
             int left2 = mid2;
-            int right = nums.length-1;
-            while (left <= right) {
-                
+            int right2 = nums.length-1;
+            while (left2 <= right2) {
+                int mid = left2 + (right2 - left2);
+                if (nums[mid] < small) {
+                    small = nums[mid];
+                }else{
+                    right = mid - 1;
+                }
             }
         }
     }
