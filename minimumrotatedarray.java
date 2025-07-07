@@ -11,6 +11,8 @@ public class minimumrotatedarray {
                 if (nums[mid] < small) {
                     small = nums[mid];
                     right = mid-1;
+                }else{
+                    left = mid + 1;
                 }
             
         }
