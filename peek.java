@@ -14,6 +14,6 @@ public class peek {
                  right = mid - 1;
             }
         }
-        System.out.println(nums[peek]);
+        System.out.println(peek);
     }
 }
