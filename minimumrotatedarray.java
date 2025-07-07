@@ -10,6 +10,7 @@ public class minimumrotatedarray {
             if (nums[left] <= nums[mid]) {
                 if (nums[mid] < small) {
                     small = nums[mid];
+                    right = mid-1;
                 }
             
         }
