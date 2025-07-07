@@ -8,6 +8,9 @@ public class minimumrotatedarray {
         while (left <= right) {
             int mid = left + (right - left)/2;
             if (nums[left] <= nums[mid]) {
+                if (nums[mid] < small) {
+                    small = nums[mid];
+                }
             
         }
         }
