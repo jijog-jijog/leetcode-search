@@ -29,5 +29,6 @@ public class minimumrotatedarray {
                 }
             }
         }
+    System.out.println(small);
     }
 }
