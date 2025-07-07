@@ -5,7 +5,7 @@ public class peek {
         int right = nums.length-1;
         int peek = 0;
 
-        while (left <= right ) {
+        while (left < right ) {
             int mid = left + (right - left)/2;
             if (nums[mid] > nums[peek] ) {
                 peek = mid;
