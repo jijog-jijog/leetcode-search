@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "peek",
+            "request": "launch",
+            "mainClass": "peek",
+            "projectName": "leetcode_a821e293"
+        },
+        {
+            "type": "java",
             "name": "minimumrotatedarray",
             "request": "launch",
             "mainClass": "minimumrotatedarray",
