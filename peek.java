@@ -1,6 +1,6 @@
 public class peek {
     public static void main(String[] args) {
-        int[] nums = {1,2,3,1};
+        int[] nums = {1};
         int left = 0;
         int right = nums.length-1;
         int peek = nums[0];
