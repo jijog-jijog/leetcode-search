@@ -5,8 +5,11 @@ public class minimumrotatedarray {
         int right = nums.length-1;
         int small = nums[0];
 
-        if (nums[left] <= nums[mid]) {
+        while (left <= right) {
+            int mid = left + (right - left)/2;
+            if (nums[left] <= nums[mid]) {
             
+        }
         }
     }
 }
