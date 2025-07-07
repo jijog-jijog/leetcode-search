@@ -16,7 +16,9 @@ public class minimumrotatedarray {
                 }  
         }
         }
-        int mid2 = left+(right - left )/2;
+        int left0 = 0;
+        int right0 = nums.length-1;
+        int mid2 = left0+(right0 - left0 )/2;
         if (nums[mid2] >= nums[right]) {
             int left2 = mid2;
             int right2 = nums.length-1;
