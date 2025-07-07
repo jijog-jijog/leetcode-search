@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "minimumrotatedarray",
+            "request": "launch",
+            "mainClass": "minimumrotatedarray",
+            "projectName": "leetcode_a821e293"
+        },
+        {
+            "type": "java",
             "name": "persquare367",
             "request": "launch",
             "mainClass": "persquare367",
