@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "infinitearray",
+            "request": "launch",
+            "mainClass": "infinitearray",
+            "projectName": "leetcode_a821e293"
+        },
+        {
+            "type": "java",
             "name": "firstandlast",
             "request": "launch",
             "mainClass": "firstandlast",
