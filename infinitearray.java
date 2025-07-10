@@ -9,9 +9,9 @@ public class infinitearray {
 
        
         while (target > nums[right]) {
-            int temp = right;
+            int temp = right +1;
               right = right+(right - left + 1) *2;
-              left = temp + 1;
+              left = temp;
 
         }
         while (left <= right) {
