@@ -5,7 +5,7 @@ public class infinitearray {
 
         int left = 0;
         int right = 1;
-        int ans = -1;
+        int ans =  -1;
 
        
         while (target > nums[right]) {
