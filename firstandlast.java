@@ -12,7 +12,7 @@ public class firstandlast {
 
             if (nums[mid] == target) {
                 anslef = mid;
-                right = mid;
+                right = mid - 1;
             }else if (nums[mid] < target) {
                 left = mid + 1;
             }else{
@@ -27,7 +27,7 @@ public class firstandlast {
             int mid = rleft + (rright - rleft)/2;
             if (nums[mid] == target) {
                 rans = mid;
-                rleft = mid;
+                rleft = mid + 1;
                 
             }else if (nums[mid] > target) {
                 rright = mid -1;
@@ -36,7 +36,8 @@ public class firstandlast {
             }
         } 
 
-        System.out.println(anslef + rans);
+        System.out.println(anslef);
+        System.out.println(rans);
             
     }
 }
