@@ -15,6 +15,6 @@ public  class peekelement {
                 right = mid - 1;
             }
         }
-        
+        System.out.println(left);
     }
 }
