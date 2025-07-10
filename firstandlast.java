@@ -29,10 +29,11 @@ public class firstandlast {
                 rans = mid;
                 rleft = mid + 1;
                 
-            }else if (nums[mid] > target) {
-                rright = mid -1;
-            }else{
+            }else if (nums[mid] <= target) {
                 rleft = mid + 1;
+               
+            }else{
+                 rright = mid -1;
             }
         } 
 
