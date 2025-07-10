@@ -1,13 +1,13 @@
 public class firstandlast {
     public static void main(String[] args) {
-        int[] nums = {5,7,7,8,8,10};
-        int target = 8;
+        int[] nums = {5,7,7,7,7,7,7,7,7,8,8,10};
+        int target = 7;
 
         int left = 0;
         int right = nums.length - 1;
         int anslef = -1;
 
-        while(left < right){
+        while(left <= right){
             int mid = left + (right - left)/2;
 
             if (nums[mid] == target) {
