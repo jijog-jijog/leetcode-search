@@ -13,10 +13,11 @@ public class firstandlast {
             if (nums[mid] == target) {
                 anslef = mid;
                 right = mid - 1;
-            }else if (nums[mid] < target) {
-                left = mid + 1;
+            }else if (nums[mid] >= target) {
+                 right = mid - 1;
+                
             }else{
-                right = mid - 1;
+               left = mid + 1;
             }
         }
 
