@@ -8,8 +8,8 @@ public class dupli {
          int[] op = new int[nums.length];
 
         for(int i=0; i<nums.length; i++){
-            if (i <= nums.length) {
-                nums[i*2] = op[i];
+            if (i+1 <= nums.length-1) {
+                nums[i+1] = op[i];
             }
 
             
