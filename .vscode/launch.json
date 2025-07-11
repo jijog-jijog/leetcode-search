@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "dupli",
+            "request": "launch",
+            "mainClass": "dupli",
+            "projectName": "leetcode_a821e293"
+        },
+        {
+            "type": "java",
             "name": "maxrot",
             "request": "launch",
             "mainClass": "maxrot",
