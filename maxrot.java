@@ -1,6 +1,6 @@
 public class maxrot {
     public static void main(String[] args) {
-        int[] arr = {5 , 1, 2, 3, 4};
+        int[] arr = {5 , 1 , 2, 3, 4};
 
         int left = 0;
         int right = arr.length-1;
